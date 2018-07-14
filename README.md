@@ -100,9 +100,11 @@ We split 25519 images into 15316(60%) train、3823(15%) validation and 6380(25%)
 
 7. Near-full : 33(0.5%)
 
+<h3> Model training progress </h3>
 
 
+<h3> Test data result </h4>
 
-
+<h3> Conclusion and future work <
 
 
