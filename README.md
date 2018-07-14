@@ -109,7 +109,7 @@ I train for 40 epochs and get 96.4% for train and 93.3% for validation. Below is
 
 <h3> Test data result </h3>
 
-For test data set, I get 92.95% accuracy. Below is my classified confusion matrix
+For the test data set, I get 92.95% accuracy. Below is my classified confusion matrix
 
 ![Confusion_Matrix](https://github.com/fr407041/WM-811K_semiconductor_wafer_map_pattern_classified/blob/master/images/test%20data%20confusionMatrix.png)
 
