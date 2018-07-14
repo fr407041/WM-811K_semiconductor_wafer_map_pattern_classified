@@ -43,7 +43,7 @@ P.S There are many scholars use 172950 images to publish their papers and claim 
 
 <h3> Data split </h3>
 
-We split 25519 images into 15316(60%) train、3823(15%) validation and 6380(25%) test and use test data sets to varified my model.
+I split 25519 images into 15316(60%) train、3823(15%) validation and 6380(25%) test and use test data sets to varified my model.
 
 **train : 15316(60%)**
 
@@ -102,8 +102,8 @@ We split 25519 images into 15316(60%) train、3823(15%) validation and 6380(25%)
 <h3> Model training progress </h3>
 
 
-<h3> Test data result </h4>
+<h3> Test data result </h3>
 
-<h3> Conclusion and future work <
+<h3> Conclusion and future work </h3>
 
 
