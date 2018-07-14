@@ -101,8 +101,21 @@ I split 25519 images into 15316(60%) train、3823(15%) validation and 6380(25%) 
 
 <h3> Model training progress </h3>
 
+I train for 40 epochs and get 96.4% for train and 93.3% for validation. Below is my training history.
+
+![Training_History](https://github.com/fr407041/WM-811K_semiconductor_wafer_map_pattern_classified/blob/master/images/training_history.png)
+
+![Training_Progress](https://github.com/fr407041/WM-811K_semiconductor_wafer_map_pattern_classified/blob/master/images/training%20Progess.png)
 
 <h3> Test data result </h3>
+
+For test data set, I get 92.95% accuracy. Below is my classified confusion matrix
+
+![Confusion_Matrix](https://github.com/fr407041/WM-811K_semiconductor_wafer_map_pattern_classified/blob/master/images/test%20data%20confusionMatrix.png)
+
+![Classified_Result](https://github.com/fr407041/WM-811K_semiconductor_wafer_map_pattern_classified/blob/master/images/test_data_classified_rate.png)
+
+
 
 <h3> Conclusion and future work </h3>
 
