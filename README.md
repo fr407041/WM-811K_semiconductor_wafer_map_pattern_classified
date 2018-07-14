@@ -7,9 +7,8 @@ In semiconductor, there are many process issue and wafer map's pattern from CP Y
 
 But there is a big problem that how to classified the wafer map pattern into serveral groups without manual action. There are many papers to survey this problem, and here I will show the result of applying deep learning.
 
-Threre are 811457 images in the data but only 172950 images with manual label.
-
-From 172950 images, label:8 (none pattern) occupied 85.2%. 
+Threre are 811457 images in the data but only 172950 images with manual label (totally 9 labels : 0、1、2、3、4、5、6、7、8).
+<br>From 172950 images, label:8 (none pattern) occupied 85.2%. 
 
 ![images](https://github.com/fr407041/WM-811K_semiconductor_wafer_map_pattern_classified/blob/master/images/none_patterns.png)
 
