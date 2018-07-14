@@ -115,7 +115,7 @@ For the test data set, I get 92.95% accuracy. Below is my classified confusion m
 
 ![Classified_Result](https://github.com/fr407041/WM-811K_semiconductor_wafer_map_pattern_classified/blob/master/images/test_data_classified_rate.png)
 
-
+You can download the [test classified result](https://github.com/fr407041/WM-811K_semiconductor_wafer_map_pattern_classified/blob/master/test_classified.csv) to check. 
 
 <h3> Conclusion and future work </h3>
 
