@@ -115,10 +115,12 @@ For the test data set, I get 92.95% accuracy (It's similar to validation's accur
 
 ![Classified_Result](https://github.com/fr407041/WM-811K_semiconductor_wafer_map_pattern_classified/blob/master/images/test_data_classified_rate.png)
 
-<h3> Conclusion and future work </h3>
-For some reason, I can't post my model here. 
+You can download the [test data classified result](https://github.com/fr407041/WM-811K_semiconductor_wafer_map_pattern_classified/blob/master/test_classified.csv) and [validate data classfied result](https://github.com/fr407041/WM-811K_semiconductor_wafer_map_pattern_classified/blob/master/valid_classified.csv) to check.
 
-There are things I want to do in the future :
+<h3> Conclusion and future work </h3>
+For some reason, currently I can't post my model here. 
+
+<br>There are several things I want to do in the future :
 
 1. Add none(8) pattern into classified, **but consider the amount of it** ( I don't want to deliver a joking/cheating model ). So I will have nine pattern (0、1、2、3、4、5、6、7、8) to classified. 
 
