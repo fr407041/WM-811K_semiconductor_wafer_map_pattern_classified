@@ -116,7 +116,7 @@ For the test data set, I get 92.95% accuracy (It's similar to validation's accur
 ![Classified_Result](https://github.com/fr407041/WM-811K_semiconductor_wafer_map_pattern_classified/blob/master/images/test_data_classified_rate.png)
 
 <h3> Conclusion and future work </h3>
-For some reason, I can't post my model here. If one day I get rid of restrictions on me, I will show the model public.
+For some reason, I can't post my model here. 
 
 There are things I want to do in the future :
 
