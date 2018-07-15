@@ -117,8 +117,14 @@ For the test data set, I get 92.95% accuracy (It's similar to validation's accur
 
 You can download the [test data classified result](https://github.com/fr407041/WM-811K_semiconductor_wafer_map_pattern_classified/blob/master/test_classified.csv) and [validate data classfied result](https://github.com/fr407041/WM-811K_semiconductor_wafer_map_pattern_classified/blob/master/valid_classified.csv) to check.
 
+The download file will show below information 
+
+![detail](https://github.com/fr407041/WM-811K_semiconductor_wafer_map_pattern_classified/blob/master/images/detail_classfied.png)
+
+The prior column info are correspond to WM-811K data set.
+
 <h3> Conclusion and future work </h3>
-For some reason, currently I can't post my model here. 
+For some reason, currently I can't post my model here. But I show the possibilty for solving wafer map pattern classified problem in the semiconductor and I believe I can make it better in the future.
 
 <br>There are several things I want to do in the future :
 
