@@ -109,7 +109,7 @@ I train for 40 epochs and get 96.4% for train and 93.3% for validation. Below is
 
 <h3> Test data result </h3>
 
-For the test data set, I get 92.95% accuracy. Below is my classified confusion matrix
+For the test data set, I get 92.95% accuracy (It's similar to validation's accuracy). Below is my classified confusion matrix
 
 ![Confusion_Matrix](https://github.com/fr407041/WM-811K_semiconductor_wafer_map_pattern_classified/blob/master/images/test%20data%20confusionMatrix.png)
 
@@ -118,5 +118,14 @@ For the test data set, I get 92.95% accuracy. Below is my classified confusion m
 You can download the [test classified result](https://github.com/fr407041/WM-811K_semiconductor_wafer_map_pattern_classified/blob/master/test_classified.csv) to check. 
 
 <h3> Conclusion and future work </h3>
+For some reason, I can't post my model here. If one day I get rid of restrictions on me, I will show the model public.
 
+There are things I want to do in the future :
 
+1. Add none(8) pattern into classified, **but consider the amount of it** ( I don't want to deliver a joking/cheating model ). So I will have nine pattern (0、1、2、3、4、5、6、7、8) to classified. 
+
+2. There are still many false labels in the data sets. It is also the reason of reduce the accuracy. But it's difficult to varified all of the manual labels correctness. So I must search another good idea to solve. 
+
+Reference :
+
+1. https://www.kaggle.com/qingyi/wm811k-wafer-map/discussion/57318#latest-338421
