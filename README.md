@@ -1,14 +1,9 @@
 # WM-811K_semiconductor_wafer_map_pattern_classified
 <h3 id="Introduction"> Data Introduction </h3>
 
-WM-811K is a semiconductor data sets which you can download from [Kaggle](https://www.kaggle.com/qingyi/wm811k-wafer-map) or [here](http://mirlab.org/dataSet/public/)
+The WM-811K semiconductor data sets can be downloaded from [Kaggle](https://www.kaggle.com/qingyi/wm811k-wafer-map) or [here](http://mirlab.org/dataSet/public/). In the semiconductor industry, engineers rely on wafer map patterns from CP Yield, WAT (Wafer Acceptance Test), and Particle to identify process issues. However, classifying these wafer map patterns into groups without manual intervention is a major challenge. Many papers have investigated this problem, and I will present the results of using deep learning to address it.
 
-In semiconductor, there are many process issue and wafer map's pattern from CP Yield、WAT(Wafer Acceptance Test) and Particle can help the engineers find some clue. 
-
-But there is a big problem that how to classified the wafer map pattern into serveral groups without manual action. There are many papers to survey this problem, and here I will show the result of applying deep learning.
-
-Threre are 811457 images in the data but only 172950 images with manual label (totally 9 labels : 0、1、2、3、4、5、6、7、8).
-<br>From 172950 images, label:8 (none pattern) occupied 85.2%. 
+The dataset contains 811,457 images, but only 172,950 images have manual labels, comprising a total of nine labels: 0, 1, 2, 3, 4, 5, 6, 7, and 8. Among these images, label 8 (representing no pattern) accounts for 85.2% of the total.
 
 ![images](https://github.com/fr407041/WM-811K_semiconductor_wafer_map_pattern_classified/blob/master/images/none_patterns.png)
 
@@ -30,16 +25,11 @@ The other remain pattern (14.8%) are
 
 7. Near-full : 149(0.1%)
 
-The kaggle's data owner [QINGYI](https://www.kaggle.com/qingyi/wm811k-wafer-map/) have do a great data explore and I cite one image about other 8 patterns from him/her (Sorry, I am lazy to generate again ...).
+The data owner of Kaggle, [QINGYI](https://www.kaggle.com/qingyi/wm811k-wafer-map/), has conducted an extensive data exploration and provided an image showing the other eight patterns (apologies for not generating it again). If we predict that all patterns belong to label 8, we can achieve an 85.2% baseline accuracy for this dataset. However, this may lead to a false sense of confidence in the model's performance, as we may obtain low-accuracy classification results for the remaining 14.8% of the data.
 
 ![image](https://github.com/fr407041/WM-811K_semiconductor_wafer_map_pattern_classified/blob/master/images/8%20category%20pattern.png)
 
-If we just predict all patterns are label:8 (none pattern), we will get 85.2% baseline accuracy for this data set. 
-<br>It will make us easily misleading to believe we have build a great model for this problem. But in fact we may get low accuracy classified result for the remain 14.8% data.
-
-**So first I define the problem is to seaparate 8 pattern from 25519 images (without none patterns)**
-
-P.S There are many scholars use 172950 images to publish their papers and claim they got high accuracy, but in my view it's ... mmh ... you know.
+Therefore, our goal is to separate the eight patterns from the 25,519 images that do not belong to the none pattern category. It is worth noting that many researchers have used all 172,950 labeled images to claim high accuracy, which in our view may be misleading.
 
 <h3> Data split </h3>
 
@@ -124,13 +114,14 @@ The download file will show below information
 The prior column info are correspond to WM-811K data set.
 
 <h3> Conclusion and future work </h3>
-For some reason, currently I can't post my model here. But I show the possibilty for solving wafer map pattern classified problem in the semiconductor and I believe I can make it better in the future.
 
-<br>There are several things I want to do in the future :
+Due to certain reasons, I am unable to share my model at the moment. However, I have demonstrated the potential of solving the wafer map pattern classification problem in the semiconductor industry, and I am confident that I can improve the model in the future.
 
-1. Add none(8) pattern into classified, **but consider the amount of it** ( I don't want to deliver a joking/cheating model ). So I will have nine pattern (0、1、2、3、4、5、6、7、8) to classified. 
+<br> Moving forward, there are several things that I plan to do:
 
-2. There are still many false labels in the data sets. It is also the reason of reduce the accuracy. But it's difficult to varified all of the manual labels correctness. So I must search another good idea to solve. 
+1. Include the "none" (label:8) pattern in the classification, but carefully consider the proportion of this pattern in the dataset to ensure that the model is not misleading or cheating. Thus, there will be a total of nine patterns (0, 1, 2, 3, 4, 5, 6, 7, 8) for classification.
+
+2. There are still many mislabeled instances in the dataset, which results in reduced accuracy. However, it is challenging to verify the correctness of all manual labels. Hence, I need to explore alternative approaches to address this issue.
 
 Reference :
 
